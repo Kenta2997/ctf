@@ -1,0 +1,6 @@
+Q8.[Misc] Can you open this file ?
+https://ctf.cpaw.site/questions.php?qnum=8
+
+解いた方法
+file open_me を実行
+「Composite Document File V2 Document」と出てきたのでググってwordで実行
