@@ -1,4 +1,5 @@
 Q7.[Reversing] Can you execute ?
+https://ctf.cpaw.site/questions.php?qnum=7
 
 解いた方法
 問題ファイルをダウンロード
