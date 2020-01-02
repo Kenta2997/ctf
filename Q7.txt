@@ -1,0 +1,6 @@
+Q7.[Reversing] Can you execute ?
+
+解いた方法
+問題ファイルをダウンロード
+ubuntuで"file exec_me"を実行
+./exec_meを実行
