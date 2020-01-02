@@ -1,0 +1,11 @@
+Q10.[Forensics] River
+https://ctf.cpaw.site/questions.php?qnum=10
+
+
+解き方
+プロパティを開いて緯度経度を調べる
+地図で頑張る
+甲突川と出る
+AC!
+
+cpaw{koutsukigawa}
