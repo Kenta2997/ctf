@@ -1,0 +1,5 @@
+Q15.[Web] Redirect
+https://ctf.cpaw.site/questions.php?qnum=15
+
+chromeのデベロッパーツールのネットワークを見る
+cpaw{4re_y0u_1ook1ng_http_h3ader?}
