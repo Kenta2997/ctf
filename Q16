@@ -1,0 +1,9 @@
+Q16.[Network+Forensic]HTTP Traffic
+ans = cpaw{Y0u_r3st0r3d_7his_p4ge}
+
+解き方
+1. Wiresharkでpcapファイルを開く
+2. 「ファイル->オブジェクトをエクスポート->HTTP...」を押す
+3. HTTPオブジェクト一覧が出てきたら、右下のすべて保存を押す
+4. cssとjsのソースはフォルダ階層を再現するためにそれぞれ「css」「js」のフォルダを作って入れる
+5. network100.htmlを実行してボタンを押す
