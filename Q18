@@ -1,0 +1,32 @@
+Q18.[Forensic]leaf in forest
+
+解いた方法
+
+中身を見てみる
+d4c3 b2a1 0000 0000 0000 0081 9301 0203
+6521 6c6f 7665 6c69 7665 216c 6f76 656c
+6976 6521 6c6f 7665 6c69 7665 216c 6f76
+656c 6976 6521 6c6f 7665 6c69 7665 216c
+6f76 656c 6976 6521 6c6f 7665 6c69 7665
+216c 6f76 656c 6976 6521 6c6f 7665 6c69
+7665 216c 6f76 656c 6976 6521 6c6f 7665
+6c69 7665 216c 6f76 656c 6976 6521 6c6f
+
+ò       e!lovelive!lovelive!lovelive!lovelive!lovelive!lovelive!lovelive!lovelive!lovelive!lovelive!lovelive!love
+
+みたいになってた
+ところどころ大文字があったのでそれだけ出力してみたらフラグ発見
+
+
+	while(1){
+		string s;
+		cin >> s;
+		if(s=="end")break;
+		for(auto c:s){
+			if((c<='Z' && c>='A')||(c=='{')||(c=='}')){
+				cout << c;
+			}
+		}
+    
+
+CCCPPPAAAWWW{{{MMMGGGRRREEEPPP}}}
