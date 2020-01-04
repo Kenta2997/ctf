@@ -1,0 +1,7 @@
+Q20.[Crypto]Block Cipher
+https://ctf.cpaw.site/questions.php?qnum=20
+
+解き方
+./a.out ruoYced_ehpigniriks_i_llrg_stae 4
+
+cpaw{Your_deciphering_skill_is_great}
