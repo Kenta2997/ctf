@@ -1,0 +1,7 @@
+Q17.[Recon]Who am I ?
+
+解いた方法
+1.「スペシャルフォース2　porisuteru」で検索
+2. 画像にIDがある　https://twitter.com/porisuteru/status/653565663592607744
+
+ans = cpaw{parock}
