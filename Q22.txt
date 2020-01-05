@@ -1,0 +1,6 @@
+Q22.[Web]Baby's SQLi - Stage 1-
+https://ctf.cpaw.site/questions.php?qnum=22
+
+SQL
+SELECT * FROM palloc_home
+を打つ
