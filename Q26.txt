@@ -1,0 +1,27 @@
+Q26.[PPC]Remainder theorem
+https://ctf.cpaw.site/questions.php?qnum=26
+
+解いた方法
+普通に中国剰余定理を使う
+
+import fractions
+def ex_euclid(x, y):
+	c0, c1 = x, y
+	a0, a1 = 1, 0
+	b0, b1 = 0, 1
+	while c1 != 0:
+		m = c0 % c1
+		q = c0 // c1
+		c0, c1 = c1, m
+		a0, a1 = a1, (a0 - q * a1)
+		b0, b1 = b1, (b0 - q * b1)
+	return c0, a0, b0
+x1 = 32134
+m1 = 1584891
+x2 = 193127
+m2 = 3438478
+print(fractions.gcd(m1,m2))
+x,u1,u2 = ex_euclid(m1,m2);
+print( (x1*m2*u2+x2*m1*u1) % (m1*m2) );
+
+x = 35430270439
