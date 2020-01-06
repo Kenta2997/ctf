@@ -1,0 +1,11 @@
+Q21.[Reversing]reversing easy!
+
+解いた方法
+objdump -s rev100
+で中身を見る
+フラグっぽいやつ発見
+cpawから{までの文字はいらないやつ -> fはいらない
+小文字を出力して
+yakiniku! 
+が答え
+
